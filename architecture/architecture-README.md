@@ -83,15 +83,15 @@ Amazon EKS Control Plane
 
 ⚙️ Key Architecture Components
 
-    Component	               Purpose
+    Component	                    Purpose
 
-1. Deployment	            Manages application lifecycle and updates
-2. ReplicaSet	            Ensures desired number of pods are running
-3. Pods (5 replicas)	    Run the containerized 2048 application
-4. Service (ClusterIP)	    Internal communication within cluster
-5. Service (LoadBalancer)	Exposes application to the internet
-6. Amazon EKS	            Managed Kubernetes service
-7. EC2 Worker Nodes	        Run Kubernetes workloads
+1. Deployment	  ------->          Manages application lifecycle and updates
+2. ReplicaSet	      ------->      Ensures desired number of pods are running
+3. Pods (5 replicas)	------->    Run the containerized 2048 application
+4. Service (ClusterIP)	------->    Internal communication within cluster
+5. Service (LoadBalancer) ------->	Exposes application to the internet
+6. Amazon EKS	         ------->   Managed Kubernetes service
+7. EC2 Worker Nodes	      ------->  Run Kubernetes workloads
 
 
 🔁 High Availability
@@ -126,16 +126,16 @@ Scalable & Highly Available Application
 
 🧰 Tech Stack
 
-Category	                   Tools Used
+Category	                             Tools Used
 
-1. Containerization	              Docker
-2. Container Orchestration	      Kubernetes
-3. Local Kubernetes	              Minikube
-4. Cloud Provider	              AWS
-5. Managed Kubernetes	          Amazon EKS
-6. Infrastructure CLI	          eksctl
-7. Kubernetes CLI	              kubectl
-8. Version Control	              Git & GitHub
+1. Containerization	     ------->         Docker
+2. Container Orchestration	 ------->     Kubernetes
+3. Local Kubernetes	          ------->    Minikube
+4. Cloud Provider	          ------->    AWS
+5. Managed Kubernetes	    ------->      Amazon EKS
+6. Infrastructure CLI	     ------->     eksctl
+7. Kubernetes CLI	         ------->     kubectl
+8. Version Control	         ------->     Git & GitHub
 
 
 📌 What This Architecture Demonstrates
