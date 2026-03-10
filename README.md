@@ -60,14 +60,17 @@ Amazon EKS Control Plane
 ```
 PROJECT-2-eks-kubernetes-2048-deployment
 │── architecture
-|   ├── 
-|   ├──
+|   ├── architecture-README.md
+|   ├── eks-2048-architecture.png
 ├── kubernetes
 │   ├── deployment.yaml
 │   └── service.yaml
 │
 ├── screenshots
-│
+|   ├── 2048-game.png
+│   ├── eks-nodes.png 
+|   ├── loadbalancer-service.png
+|   ├── pods-running.png
 └── README.md
 ```
 
