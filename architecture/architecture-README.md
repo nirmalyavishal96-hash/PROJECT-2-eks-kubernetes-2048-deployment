@@ -82,14 +82,16 @@ Amazon EKS Control Plane
 
 
 ⚙️ Key Architecture Components
-Component	Purpose
-Deployment	Manages application lifecycle and updates
-ReplicaSet	Ensures desired number of pods are running
-Pods (5 replicas)	Run the containerized 2048 application
-Service (ClusterIP)	Internal communication within cluster
-Service (LoadBalancer)	Exposes application to the internet
-Amazon EKS	Managed Kubernetes service
-EC2 Worker Nodes	Run Kubernetes workloads
+
+    Component	               Purpose
+
+1. Deployment	            Manages application lifecycle and updates
+2. ReplicaSet	            Ensures desired number of pods are running
+3. Pods (5 replicas)	    Run the containerized 2048 application
+4. Service (ClusterIP)	    Internal communication within cluster
+5. Service (LoadBalancer)	Exposes application to the internet
+6. Amazon EKS	            Managed Kubernetes service
+7. EC2 Worker Nodes	        Run Kubernetes workloads
 
 
 🔁 High Availability
@@ -125,28 +127,29 @@ Scalable & Highly Available Application
 🧰 Tech Stack
 
 Category	                   Tools Used
-Containerization	              Docker
-Container Orchestration	        Kubernetes
-Local Kubernetes	             Minikube
-Cloud Provider	                   AWS
-Managed Kubernetes	            Amazon EKS
-Infrastructure CLI	              eksctl
-Kubernetes CLI	                  kubectl
-Version Control	                Git & GitHub
+
+1. Containerization	              Docker
+2. Container Orchestration	      Kubernetes
+3. Local Kubernetes	              Minikube
+4. Cloud Provider	              AWS
+5. Managed Kubernetes	          Amazon EKS
+6. Infrastructure CLI	          eksctl
+7. Kubernetes CLI	              kubectl
+8. Version Control	              Git & GitHub
 
 
 📌 What This Architecture Demonstrates
 
 This project highlights practical experience with:
 
-Kubernetes Deployments
+1. Kubernetes Deployments
 
-ReplicaSets and Pod scaling
+2. ReplicaSets and Pod scaling
 
-Kubernetes Services
+3. Kubernetes Services
 
-LoadBalancer networking
+4. LoadBalancer networking
 
-Cloud-native application deployment
+5. Cloud-native application deployment
 
-Deploying workloads on Amazon EKS
+6. Deploying workloads on Amazon EKS
