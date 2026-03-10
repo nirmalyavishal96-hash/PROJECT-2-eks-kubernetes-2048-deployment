@@ -47,6 +47,9 @@ Developer Laptop
         │
         ▼
 kubectl port-forward
+
+
+
 2️⃣ Production Deployment (AWS EKS)
 
 The same application is deployed on Amazon EKS for a production-style environment.
@@ -75,6 +78,9 @@ EC2 Worker Node
    │
    ▼
 Amazon EKS Control Plane
+
+
+
 ⚙️ Key Architecture Components
 Component	Purpose
 Deployment	Manages application lifecycle and updates
@@ -84,6 +90,8 @@ Service (ClusterIP)	Internal communication within cluster
 Service (LoadBalancer)	Exposes application to the internet
 Amazon EKS	Managed Kubernetes service
 EC2 Worker Nodes	Run Kubernetes workloads
+
+
 🔁 High Availability
 
 The deployment uses 5 pod replicas, providing:
@@ -115,6 +123,7 @@ Scalable & Highly Available Application
 
 
 🧰 Tech Stack
+
 Category	                   Tools Used
 Containerization	              Docker
 Container Orchestration	        Kubernetes
@@ -124,6 +133,8 @@ Managed Kubernetes	            Amazon EKS
 Infrastructure CLI	              eksctl
 Kubernetes CLI	                  kubectl
 Version Control	                Git & GitHub
+
+
 📌 What This Architecture Demonstrates
 
 This project highlights practical experience with:
