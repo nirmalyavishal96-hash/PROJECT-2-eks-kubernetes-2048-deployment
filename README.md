@@ -307,5 +307,5 @@ eksctl delete cluster --name vishal-eks-cluster --region ap-south-1
 
 # 👨‍💻 Author
 
-Nirmalya Das
-DevOps | Enthusiatic
+Nirmalya Das   
+DevOps Enthusiatic
