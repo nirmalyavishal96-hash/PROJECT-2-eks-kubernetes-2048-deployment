@@ -1,5 +1,10 @@
 # 🚀 Deploying 2048 Game on Kubernetes (Minikube → AWS EKS)
 
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-blue)
+![AWS](https://img.shields.io/badge/AWS-EKS-orange)
+![Docker](https://img.shields.io/badge/Docker-Container-blue)
+![DevOps](https://img.shields.io/badge/DevOps-Project-green)
+
 This project demonstrates deploying a containerized application on Kubernetes locally using Minikube and then deploying the same application on AWS EKS.
 
 The application deployed is the **2048 game**, exposed publicly using an AWS Load Balancer.
