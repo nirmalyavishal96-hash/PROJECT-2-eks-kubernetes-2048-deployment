@@ -79,6 +79,8 @@ EC2 Worker Node
    ▼
 Amazon EKS Control Plane
 
+---
+
 
 
 ⚙️ Key Architecture Components
@@ -122,6 +124,8 @@ Cloud Deployment (Amazon EKS)
 Public Exposure via Load Balancer
         ↓
 Scalable & Highly Available Application
+
+---
 
 
 🧰 Tech Stack

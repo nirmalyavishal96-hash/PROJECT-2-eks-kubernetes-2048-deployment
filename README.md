@@ -4,6 +4,7 @@
 ![AWS](https://img.shields.io/badge/AWS-EKS-orange)
 ![Docker](https://img.shields.io/badge/Docker-Container-blue)
 ![DevOps](https://img.shields.io/badge/DevOps-Project-green)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 This project demonstrates deploying a containerized application on Kubernetes locally using Minikube and then deploying the same application on AWS EKS.
 
